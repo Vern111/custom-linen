@@ -55,6 +55,6 @@ html {
   }
 
   button {
-    @apply shadow-xl shadow-gray-600 rounded-xl uppercase bg-gradient-to-r from-[#5651e5] to-[#709dff] text-[#F7F7F7]
+    @apply shadow-xl shadow-gray-600 rounded-xl uppercase bg-[#E2E2D9] text-[#F7F7F7] 
   }
 }
