@@ -1,60 +1,39 @@
-
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-.scroller {
-  animation: 15s scroll alternate infinite;
-}
-
-.scroller:first-child {
-  animation-duration: 15s;
-}
-
-.scroller:nth-child(2) {
-  animation-duration: 15s;
-}
-
-@keyframes scroll {
-  from {
-    transform: translateX(0%);
-  }
-
-  to {
-    transform: translateX(-100%);
-  }
-}
-
-@import url('https://use.typekit.net/wdz8ppb.css');
-
 html {
-  scroll-behavior: smooth;
-  font-family: 'Dapifer';
+	scroll-behavior: smooth;
+	font-family: 'Dapifer';
 }
 
 @layer base {
-  body {
-    @apply bg-[#E2E2D9] text-[#000000] tracking-wide
-  }
+	body {
+		@apply bg-[#E2E2D9] text-[#000000] tracking-wide;
+	}
 
-  h1, h2, h3, h4, h5, h6 {
-    @apply font-bold
-  }
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		@apply font-bold;
+	}
 
-  h1 {
-    @apply text-4xl sm:text-5xl md:text-6xl
-  }
+	h1 {
+		@apply text-4xl sm:text-5xl md:text-6xl;
+	}
 
-  h2 {
-    @apply text-3xl sm:text-4xl
-  }
-  
-  li {
-    @apply cursor-pointer
-  }
+	h2 {
+		@apply text-3xl sm:text-4xl;
+	}
 
-  button {
-    @apply shadow-xl shadow-gray-600 rounded-xl uppercase bg-[#E2E2D9] text-[#F7F7F7] 
-  }
+	li {
+		@apply cursor-pointer;
+	}
+
+	button {
+		@apply shadow-xl shadow-gray-600 rounded-xl uppercase bg-[#E2E2D9] text-[#F7F7F7];
+	}
 }
